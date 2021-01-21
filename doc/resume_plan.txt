@@ -17,9 +17,9 @@
 
 * 功能規劃
 有前後端分離，用到以下api
-- add.php 對應about後台管理
-- edit.php 對應experience 後台管理
-- edisub.php 對應skills 後台管理
-- login.php 對應protfolio 後台管理
-- logout.php 對應contact 後台管理
-- upload.php 對應求職條件 後台管理
+- add.php 對應about 管理
+- edit.php 對應experience 管理
+- edisub.php 對應skills 管理
+- login.php 對應protfolio 管理
+- logout.php 對應contact 管理
+- upload.php 對應求職條件 管理

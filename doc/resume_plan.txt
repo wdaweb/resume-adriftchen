@@ -12,6 +12,14 @@
 - 視覺風格以簡單的配色為主，希望呈現簡潔、實際的特質與乾淨清楚的版面
 
 * 資料庫規劃
+- rsm_admin，rsm-_tb1-rsm_tb6 七張表單，除rsm_admin外每張表單規劃四個
+欄位:id、text、img、sh，主要設計讓內容可選擇顯示與否
 
 * 功能規劃
-
+有前後端分離，用到以下api
+- add.php 對應about後台管理
+- edit.php 對應experience 後台管理
+- edisub.php 對應skills 後台管理
+- login.php 對應protfolio 後台管理
+- logout.php 對應contact 後台管理
+- upload.php 對應求職條件 後台管理

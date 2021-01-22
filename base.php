@@ -196,7 +196,7 @@ $tb5=new DB("tb5");
 $tb6=new DB("tb6");
 
 //進站總人數，寫在變數宣告之後
-if(empty($_SESSION['total'])){
+/* if(empty($_SESSION['total'])){
     $total=$Total->find(1);
     // $total['total']=$total['total']+1;同下
     $total['total']++;
@@ -204,6 +204,6 @@ if(empty($_SESSION['total'])){
     $_SESSION['total']=$total['total'];
 
     
-}
+} */
 
 ?> 

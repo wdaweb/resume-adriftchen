@@ -187,7 +187,7 @@ $row=$Title->find(1);
 print_r($row);
 $Title->del(1); */
 
-$Admin=new DB("rsm_admin");
+$Admin=new DB("admin");
 $tb1=new DB("tb1");
 $tb2=new DB("tb2");
 $tb3=new DB("tb3");

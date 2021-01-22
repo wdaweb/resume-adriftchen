@@ -188,12 +188,12 @@ print_r($row);
 $Title->del(1); */
 
 $Admin=new DB("rsm_admin");
-$tb1=new DB("rsm_tb1");
-$tb2=new DB("rsm_tb2");
-$tb3=new DB("rsm_tb3");
-$tb4=new DB("rsm_tb4");
-$tb5=new DB("rsm_tb5");
-$tb6=new DB("rsm_tb6");
+$tb1=new DB("tb1");
+$tb2=new DB("tb2");
+$tb3=new DB("tb3");
+$tb4=new DB("tb4");
+$tb5=new DB("tb5");
+$tb6=new DB("tb6");
 
 //進站總人數，寫在變數宣告之後
 if(empty($_SESSION['total'])){
